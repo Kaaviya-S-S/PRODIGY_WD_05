@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Weather App</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.5.0/css/all.min.css">
+</head>
+
+<body>
+    <h1>WEATHER DASHBOARD</h1>
+
+    <div class="container">
+
+        <div class="weather-input">
+            <h3>Enter a Place Name</h3>
+            <input class="city-input" type="text" placeholder="E.g., New York, London, Tokyo">
+            <button class="search-button">Search</button>
+            <div class="separator"></div>
+            <button class="location-button">Use Current Location</button>
+        </div>
+
+        <div class="weather-data">
+            <div class="current-weather">
+                <div class="details">
+                    <h2> _______ ( _______ ) </h2>
+                    <h6> Temperature: ___ °C </h6>
+                    <h6> Wind: ___ m/s </h6>
+                    <h6> Humidity: ___ % </h6>
+                </div>
+            </div>
+
+            <div class="forecast-weather">
+                <h2>5-Day Forecast</h2>
+                <ul class="weather-cards">
+                    <li class="card">      <!--day 1 -->
+                        <h3> ( _______ ) </h3>
+                        <h6> Temp: ___ °C </h6>
+                        <h6> Wind: ___ m/s </h6>
+                        <h6> Humidity: ___ % </h6>
+                    </li>
+                    <li class="card">       <!--day 2 -->
+                        <h3> ( _______ ) </h3>
+                        <h6> Temp: ___ °C </h6>
+                        <h6> Wind: ___ m/s </h6>
+                        <h6> Humidity: ___ % </h6>
+                    </li>
+                    <li class="card">       <!--day 3 -->
+                        <h3> ( _______ ) </h3>
+                        <h6> Temp: ___ °C </h6>
+                        <h6> Wind: ___ m/s </h6>
+                        <h6> Humidity: ___ % </h6>
+                    </li>    
+                    <li class="card">       <!--day 4 -->
+                        <h3> ( _______ ) </h3>
+                        <h6> Temp: ___ °C </h6>
+                        <h6> Wind: ___ m/s </h6>
+                        <h6> Humidity: ___ % </h6>
+                    </li>
+                    <li class="card">       <!--day 5 -->
+                        <h3> ( _______ ) </h3>
+                        <h6> Temp: ___ °C </h6>
+                        <h6> Wind: ___ m/s </h6>
+                        <h6> Humidity: ___ % </h6>
+                    </li>
+                </ul>    
+            </div>
+        </div>
+
+    </div>
+
+    <script src="./script.js"></script>
+
+</body>
+
+</html>
